@@ -1,0 +1,152 @@
+body{
+    background-attachment: fixed;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#b1 {
+    margin-top: 80px;
+    margin-left: 40px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(222,184,135,.5);
+    width: 400px;
+    height: 350px;
+
+}
+
+#t1 {
+    position: absolute;
+    background-image: url("technical.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 420px;
+    width:900px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 33%;
+    opacity: 100%;
+    border-radius: 50%;
+    z-index: 1;
+   display: none;
+}
+
+#b1:active +#t1 {
+   display: block;
+}
+
+#b2 {
+    margin-top: 80px;  
+    margin-left: 480px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(222,184,135,.5);
+    width: 400px;
+    height: 350px;
+}
+
+#t2 {
+    position: absolute;
+    background-image: url("soft.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 420px;
+    width:900px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 17%;
+    opacity: 100%;
+    border-radius: 50%;
+    z-index: 1;
+   display: none;
+}
+
+#b2:active + #t2 {
+    display: block;
+ }
+
+#b3 {
+    margin-top: 80px;
+    margin-left: 920px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(222,184,135,.5);
+    width: 400px;
+    height: 350px;
+}
+
+#t3 {
+    position: absolute;
+    position: absolute;
+    background-image: url("draw.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 420px;
+    width:900px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: 0;
+    opacity: 100%;
+    border-radius: 50%;
+    z-index: 1;
+   display: none;
+}
+
+#b3:active + #t3 {
+    display: block;
+ }
+
+h1{
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(0, 0, 0);
+}
+h3{
+    margin-top: 60px;
+    padding: 25%;
+    font-size: 18px;
+    font-family: 'Fugaz One', cursive;
+    opacity: 1;
+    z-index: 5;
+}
+h5 span {
+    background-color: rgb(0, 0, 0, .4);
+    margin-top: -40px;
+    margin-left: 25%;  
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 1;
+    z-index: 5;
+    color: white;
+}
+
+h6{
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    color: whitesmoke;
+  }
+
+/* SCROL BAR*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:black;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 20px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: greenyellow;
+  }
+  
